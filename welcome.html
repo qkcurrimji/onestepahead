@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">  
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <title>Welcome Page</title>
+    <link rel = "stylesheet" href = "./index.css"/>
+    <link
+    href="https://fonts.googleapis.com/css?family-Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/db-ui-kit/3.5.8/mlb.min.css"
+    />
+    <sript
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/db-ui-kit/3.5.0/db.min.js"
+    ></script>
+</head> 
+<body>
+    <center><div style="margin:100px">
+        <span class = "message">Hello, email-id></email-id></span>
+        <div class = "success"><span>Welcome to auth started, You are successfully logged in!</span></div>
+        <button class = "btn btn-danger">Logout</button>
+        </div></center>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyD3te39Wcxn0ri1ahC_tGw79YG0y5gHIyk",
+              authDomain: "trial-515a1.firebaseapp.com",
+              projectId: "trial-515a1",
+              storageBucket: "trial-515a1.appspot.com",
+              messagingSenderId: "533534140333",
+              appId: "1:533534140333:web:29481e7dbd2e841bfda324",
+              measurementId: "G-KSKVJLS3ZC"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+          </script>
+          <script src = "welcome.js"></script>
+</body>
+</html>
